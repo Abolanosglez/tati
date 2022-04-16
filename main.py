@@ -238,7 +238,7 @@ def onmessage(update,bot:ObigramClient):
         tl_admin_user = os.environ.get('tl_admin_user')
 
         #set in debug
-        tl_admin_user = 'FriendXfriendss'
+        tl_admin_user = 'rockstar984'
 
         jdb = JsonDatabase('database')
         jdb.check_create()
@@ -618,9 +618,9 @@ def onmessage(update,bot:ObigramClient):
             #    bot_token = os.environ.get('bot_token')
             #    
                 # set in debug
-            #    api_id = 7386053
-            #    api_hash = '78d1c032f3aa546ff5176d9ff0e7f341'
-            #    bot_token = '5124841893:AAH30p6ljtIzi2oPlaZwBmCfWQ1KelC6KUg'
+            #    api_id = 16536294
+            #    api_hash = '0c780f6db3124fafbdc3dcde437e6f21'
+            #    bot_token = '5267170951:AAEqx23n7KRgx_-qey41Fhw_VnxWf2IG9iU'
 
             #    chat_id = int(update.message.chat.id)
             #    message_id = int(update.message.message_id)
@@ -636,7 +636,7 @@ def main():
     bot_token = os.environ.get('bot_token')
 
     #set in debug
-    bot_token = '5127607436:AAFnvYgq6X7ZySp9u_m1qKnPB1sTC7X57ro'
+    bot_token = '5267170951:AAEqx23n7KRgx_-qey41Fhw_VnxWf2IG9iU'
 
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
